@@ -12,7 +12,10 @@ input.addEventListener("input", () => {
 });
 
 function randomiseDash(char) {
-  const scale = (Math.random() * 3.8+ 0.2).toFixed(2);
+  const scale = (Math.random() * 3.8 + 0.2).toFixed(2);
+  const spaceLeft = (Math.random() * 0.4).toFixed(2);
+  const spaceRight = (Math.random() * 0.4).toFixed(2);
+  return `<span style="display:inline-block; transform:scaleX(${scale}); margin: 0 ${spaceRight}em 0 ${spaceLeft}em">${char}</span>`;
   return `<span style="display:inline-block; transform:scaleX(${scale})">${char}</span>`;
 }
 
