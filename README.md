@@ -1,7 +1,7 @@
 # EMDASH
 
 ## Blurb
-A vanilla JavaScript text tool that randomizes the length of each dash, en-dash, and em-dash as you type.
+A vanilla JavaScript text tool that randomizes the length of each hyphen, en-dash, and em-dash as you type.
 
 ## Technology Used
 Vanilla JavaScript, HTML, CSS. No dependencies. The tool detects three dash variants (hyphen, en-dash, em-dash) via regex and wraps each in a span with a randomized scaleX transform applied on input. A second branch randomizes the spacing between dashes as well.
